@@ -56,7 +56,7 @@ msgstr "DNSv6"
 
 #: modules/luci-mod-dashboard/root/usr/share/luci/menu.d/luci-mod-dashboard.json:3
 msgid "Dashboard"
-msgstr "概览"
+msgstr "总览"
 
 #: modules/luci-mod-dashboard/htdocs/luci-static/resources/view/dashboard/include/20_lan.js:134
 msgid "Devices"
