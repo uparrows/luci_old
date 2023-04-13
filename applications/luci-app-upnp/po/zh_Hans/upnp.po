@@ -196,7 +196,7 @@ msgstr "没有活动的重定向。"
 
 #: applications/luci-app-upnp/root/usr/share/luci/menu.d/luci-app-upnp.json:3
 msgid "UPnP"
-msgstr "UPnP"
+msgstr "UPnP 服务"
 
 #: applications/luci-app-upnp/htdocs/luci-static/resources/view/upnp/upnp.js:76
 msgid ""
