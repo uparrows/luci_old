@@ -43,8 +43,7 @@
 		'ac': [
 			'VHT20', '20 MHz', htmodes.VHT20,
 			'VHT40', '40 MHz', htmodes.VHT40,
-			'VHT80', '80 MHz', htmodes.VHT80,
-			'VHT160', '160 MHz', htmodes.VHT160
+			'VHT80', '80 MHz', htmodes.VHT80
 		]
 	};
 
@@ -129,7 +128,7 @@
 
 		cbi_set_values(mode, modes);
 
-		if (/VHT20|VHT40|VHT80|VHT160/.test(<%= luci.http.write_json(self.map:get(section, "htmode")) %>))
+		if (/VHT20|VHT40|VHT80/.test(<%= luci.http.write_json(self.map:get(section, "htmode")) %>))
 			mode.value = 'ac';
 		else if (/HT20|HT40/.test(<%= luci.http.write_json(self.map:get(section, "htmode")) %>))
 			mode.value = 'n';
